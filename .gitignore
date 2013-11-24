@@ -1,0 +1,6 @@
+l4app/bootstrap/compiled.php
+l4app/vendor
+l4app/composer.phar
+l4app/composer.lock
+.DS_Store
+Thumbs.db
