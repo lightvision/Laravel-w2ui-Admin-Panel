@@ -4,3 +4,5 @@ l4app/composer.phar
 l4app/composer.lock
 .DS_Store
 Thumbs.db
+/nbproject*
+/nbproject/private/
