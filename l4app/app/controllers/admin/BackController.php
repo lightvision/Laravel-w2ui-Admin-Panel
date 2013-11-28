@@ -8,7 +8,8 @@ class BackController extends Controller {
      * Reads default template from configuration and set default layout path to that template.
      */
     public function __construct() {
-        View::addLocation(app('path') . '/views/admin/bluesky');
+        $admin_theme = new ThemeController();
+        View::addLocation(app('path') . '/views/admin/' . $admin_theme->getAdminTheme());
     }
 
     /**
