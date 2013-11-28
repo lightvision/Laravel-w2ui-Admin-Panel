@@ -1,0 +1,11 @@
+{
+    "name": "bluesky",
+    "keywords": ["laravel", "admin", "template", "bluesky"],
+    "license": "MIT",
+    "details": {
+        "title": "BlueSky Falling Admin template",
+        "description": "This is the default admin template. It cannont be removed even it unset as default template thaks to the stick-bit 'removable' set to 0",
+        "author": "Marius Ionel"
+    },
+    "removable": "0"
+}
